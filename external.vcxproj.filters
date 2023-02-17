@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_tables.cpp">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>yeah</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\repos\fnexternal\fnexternal\driver.cpp">
+      <Filter>yeah</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="directx9\d3dx9.h">
+      <Filter>dx9imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9anim.h">
+      <Filter>dx9imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9core.h">
+      <Filter>dx9imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9effect.h">
+      <Filter>dx9imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9math.h">
+      <Filter>dx9imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9mesh.h">
+      <Filter>dx9imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9shader.h">
+      <Filter>dx9imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9shape.h">
+      <Filter>dx9imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9tex.h">
+      <Filter>dx9imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9xof.h">
+      <Filter>dx9imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx9.h">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiIncludes.h">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>dx9imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lazyimporter.h">
+      <Filter>yeah</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>yeah</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>yeah</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>yeah</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>yeah</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>yeah</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\repos\fnexternal\fnexternal\driver.h">
+      <Filter>yeah</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dx9imgui">
+      <UniqueIdentifier>{5beab16e-64ec-41cd-8599-76f399741fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dx9imgui\imgui">
+      <UniqueIdentifier>{93a1d22c-862a-4a1b-b4e7-339584be5fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeah">
+      <UniqueIdentifier>{cee17dd6-b394-4ea1-856a-1817b7570513}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="directx9\d3dx9.lib">
+      <Filter>dx9imgui</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="directx9\d3dx9math.inl">
+      <Filter>dx9imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
